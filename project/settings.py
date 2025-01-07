@@ -132,11 +132,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-<<<<<<< HEAD
     os.path.join(BASE_DIR,'assets/static'),
-=======
-    os.path.join(BASE_DIR, 'src/assets'),  # Directory for static files during development
->>>>>>> 7aa45060ea3b989b804d4f74f9af333ae57b694f
 ]
 # Directory where collectstatic gathers all static files for production
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
